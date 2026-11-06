@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" style="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="tela1" class="card-painel">
+<h1>アカウント作成</h1>
+
+<div class="formulario">  
+<input type="text" placeholder="ユーザー名">
+<input type="password" placeholder="パスワード">
+</div>
+
+<button onclick="mudarDePaginaDireto()">登録する</button>
+</div>
+
+<div id="tela2" class="card-painel escondido">
+<h1>メイン画面</h1>                           <p class="status">ログイン中</p>          
+
+<div class="area-usuario">
+  <div class="avatar">👤</div>
+<h3>Gamer_Dev</h3>
+</div>
+
+<button class="btn-sair" onclick="voltarParaInicio()">戻る</button>
+</div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
